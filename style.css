@@ -1,0 +1,41 @@
+body {
+  display: block;
+  margin: 8px;
+}
+
+.alien-planets-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 20px;
+  gap: 20px;
+}
+
+.planet-container {
+  display: flex;
+
+  align-items: center;
+  flex-wrap: wrap;
+
+  padding: 20px;
+  border: 3px solid black;
+  height: 100px;
+  width: 100px;
+  border-radius: 8px;
+}
+
+h1 {
+  font-size: 30px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 15px;
+}
+
+p {
+  font-size: 40px;
+  margin: 0;
+  padding-left: 10px;
+}

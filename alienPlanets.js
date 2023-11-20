@@ -80,3 +80,5 @@ const alienPlanets = [
     atmosphere: "neon-xenon",
   },
 ];
+
+export default { alienPlanets };
